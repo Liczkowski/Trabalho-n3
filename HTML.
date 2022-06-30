@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>É isso.</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <title>Zings</title>
+  </head>
+  <body>
+    
+    <!--HEADER-->
+    <div id="header">
+        <div class="container"> 
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="img/Logo Z.svg" alt="Logo" class="img-fluid">
+                  </a>
+                  <button class="navbar-toggler button-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse jc-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#projetos-recentes">Projetos</a>
+                      <a class="nav-link" href="#habilidades">Habilidades</a>
+                      <a class="nav-link" href="#sobre-mim">Sobre</a>
+                      <a class="nav-link" href="#contatos">Contato</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!--HEADER-->
+
+    <!--SLIDER-->
+     <div id="slider" class="block">  
+        <div class="container pt-5">
+            <div class="row">
+              <div class="col-md-4 align-self-center mb-md-0 mb-4">
+                 <h1>Bem Vindo</h1>
+                 <h4 id="p1" class="mb-4">Esse é o meu perfil pesssoal, aqui você conhecera um pouco mais quem eu sou,
+                  meus projetos e como voce pode falar comigo</h4>
+                 <a href="#sobre-mim" class="btn button-primay btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2"
+                 >Saiba Mais</a>
+                 <a href="#contatos" class="btn button-primay-outline btn-outline-primary button d-md-inline-block d-block"
+                 >Contato</a>
+              </div>
+              <div class="col-md-8 align-self-center">
+                <img src="IMG/undraw_Dev_focus_re_6iwt.png" class="img-fluid">
+              </div>
+            </div>
+          </div>
+     </div>
+    <!--SLIDER-->
+
+     <div id="sobre-mim"></div>
+    <!--SOBRE-->
+         <div id="sobre" class="block"> 
+            <div class="container"> 
+                <div class="row">   
+                    <div class="col-md-6 text-center align-self-center order-md-1 order-2">  
+                       <img src="IMG/JOAO.jpeg" class="img-fluid"> 
+                    </div>
+                    <div class="col-md-4 align-self-center mb-md-0 mb-4 order-md-2 order-1"> 
+                        <h2 class="title">Sobre mim</h2>
+                        <h5 class="subtitle">
+                        Curso Analise e Desenvolvimento de Sistemas na Universidade Unifasipe e trabalho em uma empresa de terraplanagens e prestação de serviço.
+                         </h5>
+                        <p>Meu nome é João Victor Liczkowski, tenho 20 anos de idade desde de criança gostei muito de computadores,videogames, sempre estava ligado no meio dos games e isso me fez me interessar cada vez mais pela área aonde hoje eu estudo.
+                        <a href="#contatos" class="btn btn-primary button button-primay">Entre em contato</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--SOBRE-->
+
+    <div id="O que estou estudando?"></div>
+    <!--HABILIDADES-->
+       <div id="servicos" class="block">  
+           <div class="container">  
+             <h2 class="title text-center">O que estou estudando?</h2>
+             <h4 class="subtitle text-center mb-4">Tecnologias e Frameworks</h4>
+               <div class="row">  
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0"> 
+                      <a href="#" class="destaque"> 
+                        <div class="img-continer mb-3">  
+                           <img src="IMG/Unofficial_JavaScript_logo_2.svg.png" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">JavaScript</h5>
+                        <p class="mb-0">Estudando</p>
+            
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0"> 
+                      <a href="#" class="destaque"> 
+                        <div class="img-continer mb-3">  
+                           <img src="IMG/JSON_vector_logo.svg.png" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Json</h5>
+                        <p class="mb-0">Estudando</p>
+                        
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0"> 
+                      <a href="#" class="destaque"> 
+                        <div class="img-continer mb-3">  
+                           <img src="IMG/jquery.png" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">Jquery</h5>
+                        <p class="mb-0">Estudando</p>
+                        
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0"> 
+                      <a href="#" class="destaque"> 
+                        <div class="img-continer mb-3">  
+                           <img src="IMG/html5-with-wordmark-black-white-logo-A6222B77EC-seeklogo.com.png" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">HTML</h5>
+                        <p class="mb-0">Estudando</p>
+                        
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0"> 
+                      <a href="#" class="destaque"> 
+                        <div class="img-continer mb-3">  
+                           <img src="IMG/css.png" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">CSS</h5>
+                        <p class="mb-0">Estudando</p>
+                        
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0"> 
+                      <a href="#" class="destaque"> 
+                        <div class="img-continer mb-3">  
+                           <img src="IMG/bootstrap.jpg" class="img-fluid">
+                        </div>
+                        <h5 class="text-uppercase">bootstrap</h5>
+                        <p class="mb-0">Estudando</p>
+                       
+                      </a>
+                    </div>
+               </div>
+           </div>
+       </div>
+    <!--HABILIDADES--> 
+    
+    <div id="projetos-recentes"></div>
+    <!--SERVICOS-->
+       <div id="servicos" class="container">  
+          <div fclass="container">  
+              <h2 class="ttitle text-center text-uppercase">Alguns serviços</h2>
+              <h4 class="subtitle text-center mb-4">Meus trabalhos.</h4>
+                      
+                      <div class="button-group">  
+                           <button type="button" class="active" data-filter="*">Todos</button>    
+                           <button type="button" data-filter=".artes">Artes</button>    
+                           <button type="button" data-filter=".banners">Banners</button>    
+                           <button type="button" data-filter=".websites">Websites</button>    
+                      </div>                 
+
+              <div class="row grid">      
+                <!--ITEM-->    
+                <div class="col-lg-4 col-6 mb-4 element-item websites"> 
+                       <a href="" target="_blank" > 
+                          <img src="img/Img Serviços/Landing-Page.png" class="img-fluid mb-2">
+                       </a>
+                       <h5 class="text-uppercase mb-1">Landing-Page em Dupla.</h5>
+                       <p class="mb-0"> 
+                            <span class="badge bg-light text-dark">Faculdade</span>
+                       </p>
+                    </div>
+                <!--ITEM-->     
+                <!--ITEM-->    
+                <div class="col-lg-4 col-6 mb-4 element-item banners"> 
+                       <a href="IMG/impacto.jpg"popup-link target="_blank" > 
+                          <img src="IMG/impacto.jpg" class="img-fluid mb-2">
+                       </a>
+                       <h5 class="text-uppercase mb-1">Serviço Impacto</h5>
+                       <p class="mb-0"> 
+                            <span class="badge bg-light text-dark">Impacto</span>
+                       </p>
+                    </div>
+                <!--ITEM-->
+                <!--ITEM-->    
+                <div class="col-lg-4 col-6 mb-4 element-item banners"> 
+                       <a href="IMG/impacto3.jpg"popup-link"> 
+                          <img src="IMG/WhatsApp Image 2022-06-27 at 16.31.59.jpeg" class="img-fluid mb-2">
+                       </a>
+                       <h5 class="text-uppercase mb-1">Rodocaçamba</h5>
+                       <p class="mb-0"> 
+                            <span class="badge bg-light text-dark">Impacto</span>
+                       </p>
+                    </div>
+                <!--ITEM-->     
+                <!--ITEM-->    
+                <div class="col-lg-4 col-6 mb-4 element-item banners"> 
+                       <a href="IMG/2.jpg" class="popup-link"> 
+                          <img src="IMG/2.jpg" class="img-fluid mb-2">
+                       </a>
+                       <h5 class="text-uppercase mb-1">Máquinas.</h5>
+                       <p class="mb-0"> 
+                            <span class="badge bg-light text-dark">Impacto</span>
+                       </p>
+                    </div>
+                <!--ITEM-->    
+                <div class="col-lg-4 col-6 mb-4 element-item banners"> 
+                    <a href="IMG/Desaguador.jpg" class="popup-link"> 
+                       <img src="IMG/Desaguador.jpg" class="img-fluid mb-2">
+                    </a>
+                    <h5 class="text-uppercase mb-1">Concha em V.</h5>
+                    <p class="mb-0"> 
+                         <span class="badge bg-light text-dark">Impacto</span>
+                    </p>
+                 </div>
+          </div>
+       </div>
+    <!--SERVICOS-->
+
+    <div id="contatos"></div>
+    <!--CONTATO-->
+       <div class="contato">   
+            <div class="content">   
+               <div class="left-side"> 
+                  <div class="address details"> 
+                     <div class="topic">Endereço</div>
+                     <div class="text-one">Rua Rodrigues Alves, Nº926</div>
+                     <div class="text-two">Centro - Cláudia</div>
+                  </div>
+                  <div class="address details"> 
+                     <div class="topic">Telefone</div>
+                     <div class="text-one">+55 66 9.99991311</div>
+                  </div>
+                  <div class="address details"> 
+                     <img src="img/Contato/Email.svg" alt="">
+                     <div class="topic">Email</div>
+                     <div class="text-one">thepersionrazzer@gmail.com</div>
+                     <div class="text-two"></div>
+                  </div>
+               </div>
+               <div class="right-side">   
+                  <div class="topic-box">Envie sua Mensagem</div>
+                  <p>Se você tiver alguma dúvida ou quiser nos contratar, você pode me enviar uma mensagem por aqui. É um prazer ajudá-lo.</p>
+                  <form action="#"> 
+                     <div class="input-box"></div>
+                     <div class="input-box">
+                        <input type="text" placeholder="Digite seu nome">
+                     </div>
+                     <div class="input-box"> 
+                        <input type="email" placeholder="Digite seu Email">
+                     </div>
+                     <div class="input-box message-box"> 
+                        <textarea placeholder="Digite sua mensagem"></textarea>
+                     </div>
+                     <div class="button"> 
+                        <input type="button" value="Enviar">
+                     </div>
+                  </form>
+               </div>
+            </div>
+       </div>
+       <div id="redes-sociais" class="logo py-4">   
+            <div class="row"> 
+               <div class="col-md-6 align-self-center">  
+                  <img class="logo-final" src="img/Logo Z.svg" alt="">
+               </div>
+               <div class="col-md-6 align-self-center text-right">  
+                     <ul>  
+                        <li>  
+                           <a href="https://github.com/Liczkowski" target="_blank"><img src="img/Contato/Github.svg" alt=""></a>
+                        </li>
+                        <li>  
+                           <a href="https://www.instagram.com/joao_liczkowski/" target="_blank"><img src="img/Contato/Insta.svg" alt=""></a>
+                        </li>
+                        <li>  
+                           <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-liczkowski-171084234" target="_blank"><img src="img/Contato/Linkedin.svg" alt=""></a>
+                        </li>
+                     </ul>
+               </div>
+            </div>
+       </div>
+    <!--CONTATO-->
+    <div id="final"> 
+      <h6>Copyright © 2022 João_Liczkowski</h6>
+    </div>
+
+
+
+    <script 
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" 
+        crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="jquery-1.11.2.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
