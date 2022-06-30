@@ -1,0 +1,22 @@
+$(document).ready(
+    function(){
+       var params= new URLSearchParams(location.search);
+      var nome= params.get("Nome");
+    var id= params.get("id")
+
+      console.log(id);
+       console.log(nome);
+    }
+)
+
+
+
+
+
+
+
+
+
+
+
+
